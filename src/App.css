@@ -1,0 +1,25 @@
+.header {
+    height: 200px;
+    background-color: mediumpurple;
+}
+
+.header h1 {
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 15px 10px;
+}
+
+.card-img {
+    height: 200px;
+}
+
+.img-container {
+    height: 400px;
+}
