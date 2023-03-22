@@ -19,7 +19,7 @@ const CardsGrid = ({books}) => {
                         <Col key={el.id}>
                             <Link to={`/books/${el.id}`} className='text-decoration-none text-reset'>
                                 <Card bg='light'>
-                                    <div className='card-img-contaier d-flex justify-content-center p-5'>
+                                    <div className='card-img-container d-flex justify-content-center p-5'>
                                         <Card.Img className='shadow' src={img || noCover}/>
                                     </div>
                                     <Card.Body>
